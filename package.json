@@ -1,0 +1,33 @@
+{
+  "name": "tech-demo_web-location-tracking",
+  "version": "1.0.0",
+  "description": "A tiny tech demo to illustrate the power of javascript location tracking possibilities",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "start:dev": "webpack-dev-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TeamTetris/tech-demo_web-location-tracking.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TeamTetris/tech-demo_web-location-tracking/issues"
+  },
+  "homepage": "https://github.com/TeamTetris/tech-demo_web-location-tracking#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-es2015": "^6.24.1",
+    "webpack": "^4.8.3",
+    "webpack-cli": "^2.1.3",
+    "webpack-dev-server": "^3.1.4"
+  },
+  "dependencies": {
+    "googlemaps": "^1.12.0"
+  }
+}
